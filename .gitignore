@@ -23,3 +23,35 @@ go.work.sum
 
 # env file
 .env
+
+# Backend (Golang, Echo, Air)
+backend/.air.toml
+backend/.air.conf
+backend/tmp/
+backend/logs/
+backend/*.log
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/*.test
+backend/*.out
+backend/vendor/
+backend/go.work
+backend/go.work.sum
+backend/.env
+
+# Frontend (Angular)
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+frontend/.env
+frontend/.env.*.local
+frontend/.npmrc
+frontend/.yarnrc
+frontend/.pnp.*
+frontend.pnp.js
+frontend/coverage/
+frontend/build/
+frontend/.DS_Store

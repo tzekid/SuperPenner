@@ -1,4 +1,4 @@
-module github.com/tzekid/SuperPenner
+module SuperPenner
 
 go 1.23.4
 

@@ -1,37 +1,75 @@
-### Idea ###
+# SuperPenner
 
-We develop a browser-based Game regarding Hobos with superpowers gained by the consume of alien cracktonite wich came from alieninvaders currently running the world 
-by infiltrating all government-based Sozialamt. The Goal is to get a paycheck from the Sozialamt by fighting the Aliens with your new gained superpowers and Items.
+## **Idea**
 
-You can Play in three different factions (Kinderarmut, Gescheiterte Existenz, Altersarmut)
+In this browser-based game, you play as a hobo who gains superpowers by consuming alien-derived "cracktonite." These aliens have infiltrated the world, taking control of government agencies like the Sozialamt. 
 
-You can find crazy Items to up your stats
+### **Game Objective**
+Your goal is to fight the aliens and use your superpowers and items to secure a paycheck from the Sozialamt.
 
-And with that sweet sweet cracktonite from the ALiens you can get fancy as a cisco hobo in the 70's
+### **Factions**
+Choose to play as one of three factions:
+- **Kinderarmut** (Child Poverty)
+- **Gescheiterte Existenz** (Failed Existence)
+- **Altersarmut** (Elderly Poverty)
 
-### Frontend ###
+### **Gameplay Features**
+- **Crazy Items:** Discover wild items to boost your stats.
+- **Cracktonite Upgrades:** Use alien cracktonite to enhance your style and powers—become as flashy as a '70s hobo from San Francisco!
 
-we develop our Frontend with Angular v.19 as defined in (https://angular.dev/overview)
+---
 
-needs node.js and npm as found at [
-](https://nodejs.org/en)
+## **Frontend**
 
-confirm installation with npm version
+We are developing the frontend using **Angular v19**:
 
-install angular cli in terminal with npm install -g @angular/cli
+### **Technologies and Tools**
+- **Angular**: [Angular Overview](https://angular.dev/overview)
+- **Node.js**: [Download Node.js](https://nodejs.org/en)
+- **SCSS**: [SASS Documentation](https://sass-lang.com/documentation/syntax/)
+- **TypeScript**: [TypeScript Official Site](https://www.typescriptlang.org)
 
-initialized angular project with ng new frontend
+### **Setup Instructions**
+1. Install Node.js and npm:
+   ```bash
+   node --version
+   npm --version
+   ```
+2. Install Angular CLI:
+   ```bash
+   npm install -g @angular/cli
+   ```
+3. Initialize the Angular project:
+   ```bash
+   ng new frontend
+   ```
+4. Use SCSS for styling during setup.
 
-We use Scss as defined in https://sass-lang.com/documentation/syntax/ 
+---
 
-We use Typescript as defined in https://www.typescriptlang.org
+## **Backend**
 
-### Backend ###
+We are developing the backend in **Go**. (Details to be added: **TODO**)
 
-we develop our Backend in GO as defined in TODO
+---
 
-### Infrastructure ###
+## **Infrastructure**
 
-For MVP Development and Prod we use a designated vServer provided at TODO
+### **MVP Phase**
+- Hosting on a designated **vServer**. (Details: **TODO**)
 
-After MVP Development we build Production grade DevOps in Azure with containerization and Scale-Out functionality
+### **Production Phase**
+- Transition to **Azure**:
+  - Containerization
+  - Scale-out functionality
+  - Production-grade DevOps setup
+
+---
+
+## **Contributing**
+Contributions are welcome! Please follow the setup instructions and create a pull request with your changes.
+
+---
+
+## **License**
+This project is licensed under **TODO**. (Add license information)

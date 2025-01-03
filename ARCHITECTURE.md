@@ -1,6 +1,7 @@
 2024.12.30 (kid) This is a tech architecture draft. We can keep this organic if stuff will change in the future + reasoning behind decisions.
 
 My initial idea was:  
+
 BACKEND:  
 - Go  
 - Echo (minimalistic Golang framework)  
@@ -20,4 +21,10 @@ SECURITY:
 
 ---
 
+2025.01.03 (kid) Some architecture changes:  
 
+FRONTEND:  
+- use Angular (main argument: better hireability versus HTMX)
+
+ARCHITECTURE:
+- complete codebase separation between frontend client and backend server

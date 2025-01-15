@@ -9,9 +9,8 @@ BACKEND:
 - (Networking to be handled by some bitch basic Traefik or Nginx config)
 
 FRONTEND:  
-- Golang Templates  
-- HTMX (for interactve parts of UI, compute everything on backend server and serve HTML directly, keep things basic)  
-- Tailwind (or vanilla CSS, whatever you guys prefer)  
+- Angular v19
+- Typescript 
 
 SECURITY:  
 - architect cookie and session handling before starting to implement anything  
